@@ -1,0 +1,39 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# --- PyInstaller (ToneMatch.spec bleibt im Repo) ---
+build/
+dist/
+
+# --- Nutzerdaten / urheberrechtlich geschützte Songs ---
+recordings/
+stems/
+reference_files/
+
+*.amp.json
+
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.aac
+*.ogg
+*.webm
+
+*.jsfx
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
